@@ -7,7 +7,7 @@ app = Flask(__name__)
 convert = CidrMaskConvert()
 validate = IpValidate()
 
-#This is just a change to try out the code and should be deleted after
+#This is just a change to try out the code and should be deleted.
 
 # Just a health check
 @app.route("/")
